@@ -16,13 +16,11 @@ import { Swiper, SwiperSlide } from "swiper/vue";
 import { FreeMode } from "swiper";
 import "swiper/css";
 import axios from "axios";
-import Slider from "@/components/Slider";
 import MovieInfo from "@/components/MovieInfo";
 export default {
     components: {
         Swiper,
         SwiperSlide,
-        Slider,
         MovieInfo,
     },
     setup() {
